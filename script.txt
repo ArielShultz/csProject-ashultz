@@ -1,0 +1,25 @@
+Sample Output:
+==============
+java Main 2000 2001 2002
+
+The spelling of the inputted name is not case sensitive
+Name (q to quit): Aaron
+aaron
+Pos: 1
+Uses: 3 Freq: 28089
+Name (q to quit): marlen
+marlen
+Pos: 1468
+Uses: 1 Freq: 212
+Name (q to quit): SYDNEY
+sydney
+Pos: 1911
+Uses: 3 Freq: 28913
+Name (q to quit): sIdNey
+sidney
+Pos: 1868
+Uses: 6 Freq: 4135
+Name (q to quit): sidny
+The name was not found in our file(s). Try a different name or spelling.
+Name (q to quit): q
+Goodbye
