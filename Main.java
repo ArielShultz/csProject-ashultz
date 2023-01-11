@@ -58,7 +58,7 @@ public class Main {
             }   
         }
         catch (Exception exc) {
-            System.err.println("There is an error when iterating through the file(s)");
+            System.err.println("There is an error when reading through the file(s)");
             return;
         }
     }
@@ -73,7 +73,7 @@ public class Main {
         // allows user to input multiple years in the command line to search
         // this allows program to read through multiple csv files
         for(int i = 0; i < args.length; i++) {
-            sll.readFile("https://cs.brynmawr.edu/cs151/Data/Hw9/NN" + args[i] + ".csv"); //sample file; can access files between years 1990-2020
+            sll.readFile("https://cs.brynmawr.edu/cs151/Data/Hw9/NN" + args[i] + ".csv"); //sample file that can access files between years 1990-2020
         }
         System.out.println("The spelling of any inputted name is not case sensitive");
         // Use scnr to get user input of baby name to search for from the command line
